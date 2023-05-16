@@ -14,6 +14,7 @@ driver = webdriver.Chrome(service=service)
 
 # driver.find_element('name', 'q').send_keys("hello")
 # driver.find_element('name', 'q').send_keys(Keys.RETURN)
+
 driver.get(f"{base_url}/forms.html")
 driver.find_element('id', 'check_python').click()
 check1 = driver.find_element('id', 'check_validate').text
