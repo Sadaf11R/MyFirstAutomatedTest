@@ -7,7 +7,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 base_url = "https://play1.automationcamp.ir"
 service = Service(executable_path="C:\chromedriver")
 driver = webdriver.Chrome(service=service)
-# driver.get("https://www.google.com/")
+# driver.get("https://www.google.com")
 # search_field = driver.find_element('name', 'q')
 # search_field.send_keys("Hello world!")
 # search_field.send_keys(Keys.RETURN)
