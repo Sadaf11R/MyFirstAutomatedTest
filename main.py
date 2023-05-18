@@ -32,13 +32,8 @@ sleep(1)
 driver.maximize_window()
 sleep(1)
 
-Current_path = Path(__file__).parent
-file_name = os.path.join(str(Current_path), 'Session.png')
-
-driver.save_screenshot("file_name")
-sleep(2)
-# driver.find_element('name', 'q').send_keys("wikipedia")
-# sleep(5)
-# driver.find_element('name', 'q').send_keys(Keys.RETURN)
-# sleep(5)
+# Current_path = Path(__file__).parent
+# file_name = os.path.join(str(Current_path), 'Session.png')
+# driver.save_screenshot(file_name)
+# sleep(2)
 driver.quit()
