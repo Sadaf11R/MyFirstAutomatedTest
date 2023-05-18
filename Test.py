@@ -23,5 +23,5 @@ driver.find_element('id', 'notes').send_keys("Hello world!!!")
 check2 = driver.find_element('id', 'area_notes_validate').text
 assert check2 == "Hello world!!!"
 
-sleep(5)
+sleep(2)
 driver.quit()
